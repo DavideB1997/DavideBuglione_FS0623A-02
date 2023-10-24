@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Primi passi operativi per creare un modello di pagina HTML per un po. Scropri come iniziare in modo facile">
+    <title>Sviluppo di una pagina web</title>
+</head>
+
+<body>
+    <header>
+        <div id="area_logo">
+            <img src="assets/logo.svg" alt="logo">
+            <h1>Epicode- Il blog dei developers</h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#article">Articolo</a></li>
+                <li><a href="#footer">Lavora con noi</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <article id="article">
+            <h2> Come creare un template per i post </h2>
+            <p><i>di Mario Rossi - pubblicato il 25-10-2020</i></p>
+
+            <p>
+                La prima cosa da fare è <strong>suddividere in blocchi logici la pagina</strong>, identificando le parti comuni da
+                applicare a tutte le pagine
+            </p>
+            <p>Le varie aree saranno quindi <b>suddivise</b> in:</p>
+            <ul>
+                <li>Contenuti di intestazione del tag <b>&lt;header &gt;</b></li>
+                <li>Contenuti centrali variabili del tag <b>&lt;main &gt;</b> (corpo principale)</li>
+                <li>Contenuti di fine pagina comuni, da inserire nel tag <b>&lt;footer &gt;</b></li>
+            </ul>
+        </article>
+
+        <section id="section1_formattazione">
+            <h2>Formattazione del codice</h2>
+
+            <p>
+                Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i
+                <b>CSS</b>.
+            </p>
+
+            <h3>Perciò i passi saranno:</h3> 
+            <ol>
+                <li>Progettare il markup assegnando ad ogni specifico testo il tag appropriato</li>
+                <li>Scrivere l'<b>HTML</b> dai tag esterni a quelli interni e dall'alto verso il basso</li>
+                <li>Applicare gli stili <b>CSS</b></li>
+            </ol>
+
+            <p>L'applicazione di stili <b>CSS</b> è cresciuta negli anni fino a raggiungere la diffusione pressoché totale.
+            </p>
+
+            <table>
+                <caption>Diffusione dei <b>CSS</b></caption>
+                <thead>
+                    <tr>
+                        <th>Anno</th>
+                        <th>% di utilizzo</th>
+                        <th> Supporto browser</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2000</td>
+                        <td>20%</td>
+                        <td>17%</td>
+                    </tr>
+                    <tr>
+                        <td>2002</td>
+                        <td>35%</td>
+                        <td>22%</td>
+                    </tr>
+                    <tr>
+                        <td>2004</td>
+                        <td>45%</td>
+                        <td>42%</td>
+                    </tr>
+                    <tr>
+                        <td>2008</td>
+                        <td>80%</td>
+                        <td>51%</td>
+                    </tr>
+                    <tr>
+                        <td>2012</td>
+                        <td>100%</td>
+                        <td>76%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>
+                Un test di validazione potrà essere fatto tramite il tool online <span><a href="https://www.google.com" target="_blank">LINK ESTERNO</a></span> dedicato allo scopo.
+            </p>
+        </section>
+        <section id="be_like_them">
+            <h2>
+                Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei veri
+                developers come loro:
+            </h2>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/JG0n0xRfdac"
+                title="Come assume talenti una grande azienda? Il caso DigiTouch"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+        
+
+        <section id="area_correlati">
+            <div>
+                <h3><b>Articoli correlati</b></h3>
+                <p>Validare il codice HTML</p>
+                <p>Categoria:develop</p>
+                <p>Data:18-9-202</p>
+            </div>
+            <div>
+                <h3><b>Correggere la sintassi</b></h3>
+                <p>Categoria:develop</p>
+                <p>Data:16-9-2020</p>
+            </div>
+            <div>
+                <h3><b>Meno Kb nella pagina</b></h3>
+                <p>Categoria: ottimizzazione</p>
+                <p>data:30-9-2020</p>
+            </div>
+        </section>
+
+        <aside id="newsletter">
+            
+            <form>
+                <fieldset>
+                    <legend><b>Vuoi rimanere aggiornato?</b></legend>
+
+                    <input type="email" placeholder="Inserisci l'email!">
+                    <button type="submit"> Iscriviti!</button>
+                </fieldset>
+            </form>
+        </aside>
+    </main>
+
+
+    <footer id="footer">
+        <hr>
+        <p>Blog Epicode &copy;2020</p>
+        <p>Testata online di Mario Rossi, registrata con prot. n.213/2028 - via Luigi Einaudi 2 - Milano. P.IVA 00112233</p>
+        <nav>
+            <a href="mailto:info@epicode.school">info@epicode.school</a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
